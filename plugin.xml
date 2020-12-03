@@ -15,8 +15,8 @@
       </feature>
     </config-file>
     <config-file target="AndroidManifest.xml" parent="/*">
-      <uses-permission android:name="android.permission.CAMERA" android:required="true" />
-      <uses-feature android:name="android.hardware.camera" android:required="false" />
+      <uses-permission android:name="android.permission.CAMERA" />
+      <uses-feature android:name="android.hardware.camera" android:required="true" />
       <uses-feature android:name="android.hardware.camera.front" android:required="false" />
     </config-file>
     <source-file src="src/android/QRScanner.java" target-dir="src/com/bitpay/cordova/qrscanner"/>
